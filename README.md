@@ -104,7 +104,16 @@ Given the current weather conditions (rain, sunny, snow), use a switch statement
 ```swift
 let currentWeather = "rain"
 
-// enter code below
+let currentWeather = "rain"
+
+switch currentWeather {
+case "rain":
+print("Oh no its raining")
+case "sunny":
+print("nice")
+default:
+print("sun out skin out")
+}
 ```
 
 ***
@@ -116,7 +125,10 @@ Given the first name and last name of a Fellow, declare `fullName` variable and 
 let firstName = "John"
 let lastName = "Appleseed"
 
-// enter code below
+
+var fullName = "\(firstName) \(lastName)"
+"The Fellow name is \(fullName)"
+
 ```
 
 ***
